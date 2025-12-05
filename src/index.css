@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Use the @apply directive for maximum stability in Tailwind builds */
+.active {
+  @apply bg-[#0967c2] text-white rounded-lg; /* Added rounded-lg for a better look */
+}
